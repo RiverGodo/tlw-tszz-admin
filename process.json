@@ -1,0 +1,11 @@
+{
+  "apps" : [{
+    "name":"tlw-tszz-admin",
+    "script"    : "server.js",
+    "exec_mode" : "fork" ,
+    "env": {
+      "PORT":7042,
+      "NODE_ENV": "production"
+    }
+  }]
+}

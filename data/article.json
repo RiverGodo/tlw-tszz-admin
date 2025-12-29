@@ -1,0 +1,12 @@
+[{
+    "name":"测试文章标题1",
+    "short_desc":"测试文章描述",
+    "cover_img":"http://dscj-static-file.oss-cn-qingdao.aliyuncs.com/img/WechatIMG4.jpeg",
+    "detail":"<p>test</p>",
+    "resource_url":"",
+    "state":0,
+    "type":1,
+    "opne_time":"2017-07-08",
+    "price":0,
+    "bonus_ratio":0
+}]

@@ -1,0 +1,48 @@
+.question-list {
+    .question {
+      padding: 5px 0;
+      .question-top-bar {
+        background: #eee;
+        padding: 5px;
+        .title-bar {
+          display: flex;
+          justify-content: space-between;
+          .title {
+            flex: 1;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: left;
+          }
+          .date {
+            flex: 0 0 200px;
+            text-align: right;
+          }
+        }
+        .info-bar {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          .info {
+            flex: 1;
+            font-size: 14px;
+            text-align: left;
+          }
+          .btn-group {
+            flex: 0 0 100px;
+            text-align: right;
+          }
+        }
+      }
+      .content {
+        padding: 10px;
+        cursor: pointer;        
+        .ques {
+          padding-bottom: 10px;
+        }
+        .answer {
+          padding: 10px 0;
+          border-top: 1px dashed #ccc;
+        }
+      }
+    }
+  }
